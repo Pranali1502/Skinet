@@ -4506,11 +4506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Skinet\\API\\API.csproj",
+      "projectUniqueName": "E:\\Skinet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "e:\\Skinet\\API\\API.csproj",
+      "projectPath": "E:\\Skinet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Pranali\\.nuget\\packages\\",
-      "outputPath": "e:\\Skinet\\API\\obj\\",
+      "outputPath": "E:\\Skinet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4520,6 +4520,7 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
