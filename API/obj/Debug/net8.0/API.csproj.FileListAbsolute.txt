@@ -135,3 +135,7 @@ E:\Skinet\API\obj\Debug\net8.0\refint\API.dll
 E:\Skinet\API\obj\Debug\net8.0\API.pdb
 E:\Skinet\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\Skinet\API\obj\Debug\net8.0\ref\API.dll
+E:\Skinet\API\bin\Debug\net8.0\Core.dll
+E:\Skinet\API\bin\Debug\net8.0\Infrastructure.dll
+E:\Skinet\API\bin\Debug\net8.0\Infrastructure.pdb
+E:\Skinet\API\bin\Debug\net8.0\Core.pdb
