@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\skinet\\Core\\Core.csproj": {}
+    "E:\\Skinet\\Core\\Core.csproj": {}
   },
   "projects": {
-    "E:\\skinet\\Core\\Core.csproj": {
+    "E:\\Skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\Skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "E:\\skinet\\Core\\Core.csproj",
+        "projectPath": "E:\\Skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Pranali\\.nuget\\packages\\",
-        "outputPath": "E:\\skinet\\Core\\obj\\",
+        "outputPath": "E:\\Skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config",
