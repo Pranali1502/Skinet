@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Skinet\\Api\\API.csproj": {}
+    "E:\\Skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\Skinet\\Api\\API.csproj": {
+    "E:\\Skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skinet\\Api\\API.csproj",
+        "projectUniqueName": "E:\\Skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Skinet\\Api\\API.csproj",
+        "projectPath": "E:\\Skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Pranali\\.nuget\\packages\\",
-        "outputPath": "E:\\Skinet\\Api\\obj\\",
+        "outputPath": "E:\\Skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config",
