@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Skinet\\API\\API.csproj": {}
+    "E:\\Skinet\\api\\API.csproj": {}
   },
   "projects": {
-    "E:\\Skinet\\API\\API.csproj": {
+    "E:\\Skinet\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skinet\\API\\API.csproj",
+        "projectUniqueName": "E:\\Skinet\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Skinet\\API\\API.csproj",
+        "projectPath": "E:\\Skinet\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Pranali\\.nuget\\packages\\",
-        "outputPath": "E:\\Skinet\\API\\obj\\",
+        "outputPath": "E:\\Skinet\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

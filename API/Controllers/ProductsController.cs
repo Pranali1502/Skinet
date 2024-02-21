@@ -1,7 +1,10 @@
 
 
+using API.DTOs;
+using AutoMapper;
 using Core.Entity;
 using Core.Interfaces;
+using Core.Specifications;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,24 +18,31 @@ namespace API.Controllers
         private readonly IGenericRepository<Product> _productRepo;
         private readonly IGenericRepository<ProductBrand> _brandRepo;
         private readonly IGenericRepository<ProductType> _typeRepo;
-
-        public ProductsController(IGenericRepository<Product> productRepo, IGenericRepository<ProductBrand> brandRepo, IGenericRepository<ProductType> typeRepo)
+        private readonly IMapper _mapper;
+        public ProductsController(IGenericRepository<Product> productRepo, IGenericRepository<ProductBrand> brandRepo, IGenericRepository<ProductType> typeRepo, IMapper mapper)
         {
+            _mapper = mapper;
             _brandRepo= brandRepo;
             _productRepo= productRepo;
             _typeRepo = typeRepo;
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProducts()
         {
-            return Ok(await _productRepo.ListAllAsync());
+            var spec = new ProductsWithBrandsAndTypesSpecification();
+            var products = await _productRepo.ListAsync(spec);
+
+            return Ok(_mapper.Map<IReadOnlyList<Product> ,IReadOnlyList<ProductToReturnDto>>(products));           
         }
 
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id){
-            return await _productRepo.GetByIdAsync(id);
+        public async Task<ActionResult<ProductToReturnDto>> GetProduct(int id)
+        {
+             var spec = new ProductsWithBrandsAndTypesSpecification(id);
+           var product = await _productRepo.GetEntityWithSpec(spec);
+            return _mapper.Map<Product,ProductToReturnDto>(product);
         }
 
         [HttpGet("brands")]
