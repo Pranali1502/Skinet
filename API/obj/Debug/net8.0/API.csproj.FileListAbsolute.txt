@@ -129,7 +129,6 @@ E:\Skinet\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.p
 E:\Skinet\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
 E:\Skinet\API\obj\Debug\net8.0\staticwebassets.pack.json
 E:\Skinet\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
-E:\Skinet\API\obj\Debug\net8.0\API.csproj.CopyComplete
 E:\Skinet\API\obj\Debug\net8.0\API.dll
 E:\Skinet\API\obj\Debug\net8.0\refint\API.dll
 E:\Skinet\API\obj\Debug\net8.0\API.pdb
@@ -142,3 +141,4 @@ E:\Skinet\API\bin\Debug\net8.0\Core.pdb
 E:\Skinet\api\bin\Debug\net8.0\AutoMapper.dll
 E:\Skinet\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\Skinet\api\bin\Debug\net8.0\API.staticwebassets.runtime.json
+E:\Skinet\api\obj\Debug\net8.0\API.csproj.Up2Date
