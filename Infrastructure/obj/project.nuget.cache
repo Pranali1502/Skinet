@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7+Pk2w4UN9wFZMgo86Wy/Nb6Bbqdy8BzQvDIQKjVJvqGtVZpRSQnad88wj+JkqSymtco+py/TYa8uA7SecnumQ==",
+  "dgSpecHash": "/MLg32M+0vYlnVTZ3VOgkYDRXIzXrXCQ55rJfblLkdGNLgNJp/xYiyybPbDC56m5z9w/YbiP9ReZYaeAbYFgtw==",
   "success": true,
-  "projectFilePath": "E:\\skinet\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\Skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pranali\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Pranali\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

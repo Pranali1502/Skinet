@@ -482,3 +482,8 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+.vs/Skinet/v17/.suo
+API/obj/Debug/net8.0/API.AssemblyInfo.cs
+.vs/Skinet/v17/.suo
+Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+Infrastructure/obj/Debug/net8.0/Infrastructure.assets.cache
