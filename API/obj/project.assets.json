@@ -4600,11 +4600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Skinet\\API\\API.csproj",
+      "projectUniqueName": "E:\\skinet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\Skinet\\API\\API.csproj",
+      "projectPath": "E:\\skinet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Pranali\\.nuget\\packages\\",
-      "outputPath": "E:\\Skinet\\API\\obj\\",
+      "outputPath": "E:\\skinet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4621,8 +4621,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Skinet\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\Skinet\\Infrastructure\\Infrastructure.csproj"
+            "E:\\skinet\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\skinet\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

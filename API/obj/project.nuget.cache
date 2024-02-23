@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TlCRQ9tBlmB2Xg/rNymYoRgku9whd018Kn3dDNUGHTyAyDcDARr/xxKQwtVWgbFUP37OXX4Ws0428HAILs6Yvg==",
+  "dgSpecHash": "uykCn8NXzKRPDfr8Qb5yHcSjyqeQFMc6Kx7vIBP5rYz3aH2ve0Li9828wsrdiiJCoxWAOyruQn3cvhXzqxG41Q==",
   "success": true,
-  "projectFilePath": "E:\\Skinet\\api\\API.csproj",
+  "projectFilePath": "E:\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pranali\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Pranali\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
