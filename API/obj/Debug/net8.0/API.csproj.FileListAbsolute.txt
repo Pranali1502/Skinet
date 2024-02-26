@@ -141,4 +141,4 @@ E:\Skinet\API\bin\Debug\net8.0\Core.pdb
 E:\Skinet\api\bin\Debug\net8.0\AutoMapper.dll
 E:\Skinet\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\Skinet\api\bin\Debug\net8.0\API.staticwebassets.runtime.json
-E:\Skinet\api\obj\Debug\net8.0\API.csproj.Up2Date
+E:\Skinet\Api\obj\Debug\net8.0\API.csproj.CopyComplete
