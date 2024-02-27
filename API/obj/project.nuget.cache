@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z2SlBfBrMq5Er80Zjh3yr0jMrB/uKUxmE9iqWIJh9uznOCBM4gkmQTD2ZU71X7CJ9CLNgx2kx6hJUSWX2ZVGqQ==",
+  "dgSpecHash": "9fg7FVWM0HrTcbALGbAlfSSp6CcVVcFqtizBIThc9zifnRv4B+/LSPIRyZxwbD9EI17vvstrJB57/PdD4aoiZg==",
   "success": true,
   "projectFilePath": "E:\\Skinet\\api\\API.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,8 @@
     "C:\\Users\\Pranali\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Pranali\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Pranali\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Pranali\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Pranali\\.nuget\\packages\\stackexchange.redis\\2.7.23\\stackexchange.redis.2.7.23.nupkg.sha512",
     "C:\\Users\\Pranali\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Pranali\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Pranali\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

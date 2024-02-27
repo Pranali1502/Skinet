@@ -142,3 +142,5 @@ E:\Skinet\api\bin\Debug\net8.0\AutoMapper.dll
 E:\Skinet\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\Skinet\api\bin\Debug\net8.0\API.staticwebassets.runtime.json
 E:\Skinet\Api\obj\Debug\net8.0\API.csproj.CopyComplete
+E:\Skinet\api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+E:\Skinet\api\bin\Debug\net8.0\StackExchange.Redis.dll
