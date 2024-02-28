@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "cuid"
+            ],
             "outputPath": "dist/client",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -32,8 +35,8 @@
             "styles": [
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/font-awesome/css/font-awesome.min.css",
               "node_modules/bootswatch/dist/united/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "node_modules/ngx-spinner/animations/ball-clip-rotate.css"
             ],
             "scripts": []
@@ -109,3 +112,5 @@
     "analytics": "c2d87066-2f9f-4fab-88fd-5cbd46cb777e"
   }
 }
+
+

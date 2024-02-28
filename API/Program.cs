@@ -18,6 +18,7 @@ builder.Services.AddDbContext<StoreContext>(options =>
 });
 builder.Services.AddSingleton<IConnectionMultiplexer>(c =>{
     var options = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"));
+    options.AbortOnConnectFail = false;
     return ConnectionMultiplexer.Connect(options);
 }); 
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
