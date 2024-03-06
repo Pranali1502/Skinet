@@ -141,6 +141,14 @@ E:\Skinet\API\bin\Debug\net8.0\Core.pdb
 E:\Skinet\api\bin\Debug\net8.0\AutoMapper.dll
 E:\Skinet\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\Skinet\api\bin\Debug\net8.0\API.staticwebassets.runtime.json
-E:\Skinet\Api\obj\Debug\net8.0\API.csproj.CopyComplete
 E:\Skinet\api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 E:\Skinet\api\bin\Debug\net8.0\StackExchange.Redis.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Skinet\api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\skinet\API\obj\Debug\net8.0\API.csproj.Up2Date

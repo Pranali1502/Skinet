@@ -13,4 +13,4 @@ E:\Skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
 E:\Skinet\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 E:\Skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 E:\Skinet\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
-E:\Skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CopyComplete
+E:\skinet\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date

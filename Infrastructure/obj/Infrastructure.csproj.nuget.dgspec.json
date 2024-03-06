@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Skinet\\Infrastructure\\Infrastructure.csproj": {}
+    "E:\\skinet\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\Skinet\\Core\\Core.csproj": {
+    "E:\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "E:\\Skinet\\Core\\Core.csproj",
+        "projectPath": "E:\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Pranali\\.nuget\\packages\\",
-        "outputPath": "E:\\Skinet\\Core\\obj\\",
+        "outputPath": "E:\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +34,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,34 +66,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Pranali\\.nuget\\packages\\",
-        "outputPath": "E:\\Skinet\\Infrastructure\\obj\\",
+        "outputPath": "E:\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pranali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Skinet\\Core\\Core.csproj": {
-                "projectPath": "E:\\Skinet\\Core\\Core.csproj"
+              "E:\\skinet\\Core\\Core.csproj": {
+                "projectPath": "E:\\skinet\\Core\\Core.csproj"
               }
             }
           }
@@ -89,19 +104,36 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.7.23, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.0, )"
             }
           },
           "imports": [
@@ -120,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
